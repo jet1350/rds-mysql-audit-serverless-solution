@@ -1,0 +1,226 @@
+{
+  "/RDSAuditSolutionStack/AuditLogStateTable": [
+    {
+      "type": "aws:cdk:hasPhysicalName",
+      "data": {
+        "Ref": "AuditLogStateTable643D2E6B"
+      }
+    }
+  ],
+  "/RDSAuditSolutionStack/WorkerFunctionName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "WorkerFunctionName"
+    }
+  ],
+  "/RDSAuditSolutionStack/DispatcherFunctionName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DispatcherFunctionName"
+    }
+  ],
+  "/RDSAuditSolutionStack/DiscoveryFunctionName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DiscoveryFunctionName"
+    }
+  ],
+  "/RDSAuditSolutionStack/StateTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "StateTableName"
+    }
+  ],
+  "/RDSAuditSolutionStack/ScheduleRuleName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ScheduleRuleName"
+    }
+  ],
+  "/RDSAuditSolutionStack/DiscoveryScheduleRuleName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DiscoveryScheduleRuleName"
+    }
+  ],
+  "/RDSAuditSolutionStack/S3BucketName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "S3BucketName"
+    }
+  ],
+  "/RDSAuditSolutionStack/ConfigS3Key": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ConfigS3Key"
+    }
+  ],
+  "/RDSAuditSolutionStack/AuditGlueDatabase": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditGlueDatabase"
+    }
+  ],
+  "/RDSAuditSolutionStack/AuditGlueTable": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditGlueTable"
+    }
+  ],
+  "/RDSAuditSolutionStack/QueryByUser": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryByUser"
+    }
+  ],
+  "/RDSAuditSolutionStack/QueryByTimeRange": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryByTimeRange"
+    }
+  ],
+  "/RDSAuditSolutionStack/QueryFailedOps": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryFailedOps"
+    }
+  ],
+  "/RDSAuditSolutionStack/QueryDDLOps": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryDDLOps"
+    }
+  ],
+  "/RDSAuditSolutionStack/QueryDMLOps": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryDMLOps"
+    }
+  ],
+  "/RDSAuditSolutionStack/QueryUserStats": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryUserStats"
+    }
+  ],
+  "/RDSAuditSolutionStack/QueryDCLOps": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryDCLOps"
+    }
+  ],
+  "/RDSAuditSolutionStack/GlueDatabaseName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GlueDatabaseName"
+    }
+  ],
+  "/RDSAuditSolutionStack/GlueTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GlueTableName"
+    }
+  ],
+  "/RDSAuditSolutionStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    }
+  ],
+  "/RDSAuditSolutionStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    }
+  ],
+  "/RDSAuditSolutionStack/AuditLogStateTable/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditLogStateTable643D2E6B"
+    }
+  ],
+  "/RDSAuditSolutionStack/AuditLogRetriever/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditLogRetriever94E725F0"
+    }
+  ],
+  "/RDSAuditSolutionStack/AuditLogDispatcher/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditLogDispatcher1B14C19B"
+    }
+  ],
+  "/RDSAuditSolutionStack/DispatcherSchedule/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DispatcherScheduleECD034D0"
+    }
+  ],
+  "/RDSAuditSolutionStack/DispatcherSchedule/AllowEventRuleRDSAuditSolutionStackAuditLogDispatcher42C4BCA7": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DispatcherScheduleAllowEventRuleRDSAuditSolutionStackAuditLogDispatcher42C4BCA7FE97FBBB"
+    }
+  ],
+  "/RDSAuditSolutionStack/ClusterDiscovery/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ClusterDiscovery6E3CF95C"
+    }
+  ],
+  "/RDSAuditSolutionStack/DiscoverySchedule/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DiscoverySchedule4753BB0B"
+    }
+  ],
+  "/RDSAuditSolutionStack/DiscoverySchedule/AllowEventRuleRDSAuditSolutionStackClusterDiscovery38062B90": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DiscoveryScheduleAllowEventRuleRDSAuditSolutionStackClusterDiscovery38062B90B8C0C83F"
+    }
+  ],
+  "/RDSAuditSolutionStack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/RDSAuditSolutionStack/AuditLogRetriever/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditLogRetrieverServiceRole83BB18AE"
+    }
+  ],
+  "/RDSAuditSolutionStack/AuditLogDispatcher/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditLogDispatcherServiceRole1AD899BB"
+    }
+  ],
+  "/RDSAuditSolutionStack/ClusterDiscovery/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ClusterDiscoveryServiceRole89BB4895"
+    }
+  ],
+  "/RDSAuditSolutionStack/AuditLogRetriever/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditLogRetrieverServiceRoleDefaultPolicy7A7E81B1"
+    }
+  ],
+  "/RDSAuditSolutionStack/AuditLogDispatcher/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditLogDispatcherServiceRoleDefaultPolicy301B0E9C"
+    }
+  ],
+  "/RDSAuditSolutionStack/ClusterDiscovery/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ClusterDiscoveryServiceRoleDefaultPolicy82D086A3"
+    }
+  ]
+}

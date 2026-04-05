@@ -1,0 +1,226 @@
+{
+  "/AuroraAuditLambdaStack/AuditLogStateTable": [
+    {
+      "type": "aws:cdk:hasPhysicalName",
+      "data": {
+        "Ref": "AuditLogStateTable643D2E6B"
+      }
+    }
+  ],
+  "/AuroraAuditLambdaStack/WorkerFunctionName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "WorkerFunctionName"
+    }
+  ],
+  "/AuroraAuditLambdaStack/DispatcherFunctionName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DispatcherFunctionName"
+    }
+  ],
+  "/AuroraAuditLambdaStack/DiscoveryFunctionName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DiscoveryFunctionName"
+    }
+  ],
+  "/AuroraAuditLambdaStack/StateTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "StateTableName"
+    }
+  ],
+  "/AuroraAuditLambdaStack/ScheduleRuleName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ScheduleRuleName"
+    }
+  ],
+  "/AuroraAuditLambdaStack/DiscoveryScheduleRuleName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DiscoveryScheduleRuleName"
+    }
+  ],
+  "/AuroraAuditLambdaStack/S3BucketName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "S3BucketName"
+    }
+  ],
+  "/AuroraAuditLambdaStack/ConfigS3Key": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ConfigS3Key"
+    }
+  ],
+  "/AuroraAuditLambdaStack/AuditGlueDatabase": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditGlueDatabase"
+    }
+  ],
+  "/AuroraAuditLambdaStack/AuditGlueTable": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditGlueTable"
+    }
+  ],
+  "/AuroraAuditLambdaStack/QueryByUser": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryByUser"
+    }
+  ],
+  "/AuroraAuditLambdaStack/QueryByTimeRange": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryByTimeRange"
+    }
+  ],
+  "/AuroraAuditLambdaStack/QueryFailedOps": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryFailedOps"
+    }
+  ],
+  "/AuroraAuditLambdaStack/QueryDDLOps": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryDDLOps"
+    }
+  ],
+  "/AuroraAuditLambdaStack/QueryDMLOps": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryDMLOps"
+    }
+  ],
+  "/AuroraAuditLambdaStack/QueryUserStats": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryUserStats"
+    }
+  ],
+  "/AuroraAuditLambdaStack/QueryDCLOps": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryDCLOps"
+    }
+  ],
+  "/AuroraAuditLambdaStack/GlueDatabaseName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GlueDatabaseName"
+    }
+  ],
+  "/AuroraAuditLambdaStack/GlueTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GlueTableName"
+    }
+  ],
+  "/AuroraAuditLambdaStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    }
+  ],
+  "/AuroraAuditLambdaStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    }
+  ],
+  "/AuroraAuditLambdaStack/AuditLogStateTable/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditLogStateTable643D2E6B"
+    }
+  ],
+  "/AuroraAuditLambdaStack/AuditLogRetriever/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditLogRetriever94E725F0"
+    }
+  ],
+  "/AuroraAuditLambdaStack/AuditLogDispatcher/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditLogDispatcher1B14C19B"
+    }
+  ],
+  "/AuroraAuditLambdaStack/DispatcherSchedule/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DispatcherScheduleECD034D0"
+    }
+  ],
+  "/AuroraAuditLambdaStack/DispatcherSchedule/AllowEventRuleAuroraAuditLambdaStackAuditLogDispatcher19030A8F": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DispatcherScheduleAllowEventRuleAuroraAuditLambdaStackAuditLogDispatcher19030A8F836DD308"
+    }
+  ],
+  "/AuroraAuditLambdaStack/ClusterDiscovery/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ClusterDiscovery6E3CF95C"
+    }
+  ],
+  "/AuroraAuditLambdaStack/DiscoverySchedule/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DiscoverySchedule4753BB0B"
+    }
+  ],
+  "/AuroraAuditLambdaStack/DiscoverySchedule/AllowEventRuleAuroraAuditLambdaStackClusterDiscovery26333C78": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DiscoveryScheduleAllowEventRuleAuroraAuditLambdaStackClusterDiscovery26333C7810989AFA"
+    }
+  ],
+  "/AuroraAuditLambdaStack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/AuroraAuditLambdaStack/AuditLogRetriever/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditLogRetrieverServiceRole83BB18AE"
+    }
+  ],
+  "/AuroraAuditLambdaStack/AuditLogDispatcher/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditLogDispatcherServiceRole1AD899BB"
+    }
+  ],
+  "/AuroraAuditLambdaStack/ClusterDiscovery/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ClusterDiscoveryServiceRole89BB4895"
+    }
+  ],
+  "/AuroraAuditLambdaStack/AuditLogRetriever/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditLogRetrieverServiceRoleDefaultPolicy7A7E81B1"
+    }
+  ],
+  "/AuroraAuditLambdaStack/AuditLogDispatcher/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditLogDispatcherServiceRoleDefaultPolicy301B0E9C"
+    }
+  ],
+  "/AuroraAuditLambdaStack/ClusterDiscovery/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ClusterDiscoveryServiceRoleDefaultPolicy82D086A3"
+    }
+  ]
+}

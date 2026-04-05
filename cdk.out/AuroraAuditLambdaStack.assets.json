@@ -1,0 +1,36 @@
+{
+  "version": "52.0.0",
+  "files": {
+    "6fe4f1aef0adcfe3e82c512f69e683d8be2569348c6f37b6b4449f51a4218881": {
+      "displayName": "AuditLogRetriever/Code",
+      "source": {
+        "path": "asset.6fe4f1aef0adcfe3e82c512f69e683d8be2569348c6f37b6b4449f51a4218881",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-us-west-1-a251e790": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-us-west-1",
+          "objectKey": "6fe4f1aef0adcfe3e82c512f69e683d8be2569348c6f37b6b4449f51a4218881.zip",
+          "region": "us-west-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-us-west-1"
+        }
+      }
+    },
+    "0ef08bcef820d8b381df74fa3c2bd0fec0a2e11212b832e8fcfe109e4da45adf": {
+      "displayName": "AuroraAuditLambdaStack Template",
+      "source": {
+        "path": "AuroraAuditLambdaStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-us-west-1-ede659fe": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-us-west-1",
+          "objectKey": "0ef08bcef820d8b381df74fa3c2bd0fec0a2e11212b832e8fcfe109e4da45adf.json",
+          "region": "us-west-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-us-west-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}

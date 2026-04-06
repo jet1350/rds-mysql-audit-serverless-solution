@@ -1,4 +1,4 @@
-# RDS MySQL Audit Log Serverless Solution
+# RDS MySQL Audit Serverless Solution
 
 A serverless solution for collecting, storing, and querying audit logs from Amazon Aurora MySQL and Amazon RDS for MySQL. Deploys via AWS CDK or manual console setup.
 

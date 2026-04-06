@@ -1,4 +1,4 @@
-# RDS MySQL 审计日志 Lambda 采集方案 — AWS 控制台手动部署指南
+# RDS MySQL 审计日志管理方案 — AWS 控制台手动部署指南
 
 本文档对应 CDK Stack 自动部署的所有资源，指导你通过 AWS 管理控制台完成相同的部署。
 
@@ -629,7 +629,7 @@ ORDER BY timestamp DESC
 LIMIT 100;
 ```
 
-**验证：** 在 Athena 控制台 > Saved queries 中确认 7 个查询均已创建。选择任意一个执行，确认返回结果正常。
+**验证：** 在 Athena 控制台 > Saved queries 中确认 7 个查询均已创建。选择任意一个执行，确认返回结果正常。（！注意：执行时前两个语句需要用实际数据库用户/查询日期范围来替换WHERE语句中的条件值）
 
 ---
 
@@ -646,7 +646,7 @@ aws lambda invoke --function-name rds-audit-cluster-discovery /dev/stdout
 也可使用本地脚本手动生成并上传：
 
 ```bash
-python scripts/discover_clusters.py --region <REGION> --upload s3://<S3_BUCKET>/<CONFIG_S3_KEY>
+python scripts/discover_clusters.py --target-rds-type aurora-mysql --region <REGION> --upload s3://<S3_BUCKET>/<CONFIG_S3_KEY>
 ```
 
 或手动创建 `cluster_config.json` 并上传到 `s3://<S3_BUCKET>/<CONFIG_S3_KEY>`：
@@ -660,7 +660,8 @@ python scripts/discover_clusters.py --region <REGION> --upload s3://<S3_BUCKET>/
     {
       "cluster_id": "my-aurora-cluster",
       "instance_ids": ["my-aurora-instance-1", "my-aurora-instance-2"],
-      "enabled": true
+      "enabled": true,
+      "type": "aurora-mysql"
     }
   ]
 }

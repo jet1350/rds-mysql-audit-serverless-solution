@@ -2,6 +2,8 @@
 
 A serverless solution for collecting, storing, and querying audit logs from Amazon Aurora MySQL and Amazon RDS for MySQL. Deploys via AWS CDK or manual console setup.
 
+Archived. Please get the latest artifacts from [here](https://github.com/aws-samples/sample-rds-mysql-audit-serverless-solution).
+
 ## Features
 
 - **Multi-database support** — Aurora MySQL clusters, RDS MySQL standalone instances, and RDS MySQL Multi-AZ DB clusters
